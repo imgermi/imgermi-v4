@@ -3,15 +3,27 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <div className="mb-20">
-      <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-4 mt-8">
-        <Link href="/">
-          <a className="hover:underline">Germi</a>
-        </Link>
-      </h2>
+      <h2>Hey, I'm Germi</h2>
+      <span>But people call me Juan</span>
       <ul>
-        <Link href="/about">
-          <a>About</a>
-          </Link>
+        <li>
+          <Link href="/"><a>Start</a></Link>
+        </li>
+        <li>
+          <Link href="/blog"><a>Blog</a></Link>
+        </li>
+        <li>
+          <Link href="/work"><a>Work</a></Link>
+        </li>
+        <li>
+          <Link href="/now"><a>Now</a></Link>
+        </li>
+        <li>
+          <Link href="/about"><a>About</a></Link>
+        </li>
+        <li>
+          <Link href="/contact"><a>Contact</a></Link>
+        </li>
       </ul>
     </div>
   )

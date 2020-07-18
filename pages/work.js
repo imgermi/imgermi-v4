@@ -1,11 +1,10 @@
-import Container from '../components/container'
 import Layout from '../components/layout'
 
-export default function About() {
+export default function Work() {
   return (
     <Layout>
       <section>
-        <p>hello, this is about</p>
+        <p>hello, this is work</p>
       </section>
     </Layout>
   )
