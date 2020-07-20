@@ -13,3 +13,24 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+.header-nav li a {
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.header-nav li a:after {
+  content: '*';
+  color: #00FF66;
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: -13px;
+  top: 8px;
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+.header-nav li a:hover:after {
+  opacity: 1;
+}

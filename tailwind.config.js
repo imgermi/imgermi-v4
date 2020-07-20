@@ -3,11 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        black: '#131313',
+        white: '#FCFCFC',
+        gray: '#606060',
+        green: '#00FF66'
+      },
+      fontFamily: {
+        'mono': ['IBM Plex Mono']
       },
       spacing: {
         28: '7rem',
